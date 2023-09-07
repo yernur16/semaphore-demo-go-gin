@@ -8,7 +8,7 @@ blocks:
   - name: Install dependencies
     task:
       jobs:
-        - name: Install
+        - name: install
           commands:
             - sem-version go 1.18
             - export GO111MODULE=on
